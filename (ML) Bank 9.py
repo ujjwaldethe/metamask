@@ -1,5 +1,5 @@
 import pandas as pd
-pip install tensorflow
+//pip install tensorflow
 df = pd.read_csv('Churn_Modelling.csv')
 df.shape
 print(df.head())
