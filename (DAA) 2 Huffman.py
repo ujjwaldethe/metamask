@@ -1,12 +1,12 @@
 import heapq
 class Node:
-    def _init_(self,freq,symbol,left=None,right=None):
+    def __init__(self,freq,symbol,left=None,right=None):
         self.freq=freq
         self.symbol=symbol
         self.left =left
         self.right = right
         self.huff=''
-    def _lt_(self,nxt):
+    def __lt__(self,nxt):
         return self.freq < nxt.freq
 def user():
     chars=input("chars :").split()
